@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../montserrat/Montserrat-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url('../montserrat/Montserrat-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url('../montserrat/Montserrat-ExtraBold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium;
+    src: url('../montserrat/Montserrat-Medium.ttf'); 
+  }
+
+
+*:not(input):not(textarea) {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+
+.main-1{
+    position: relative;
+    left: 400px;
+    top: 100px;
+    box-shadow: 3px 3px 4px #000;
+    background-color: rgb(0, 0, 0);
+    width: 530px;
+    height: 530px;
+}
+
+/*Main Yazı Yazıldı*/
+
+.main-1 a{
+    font-family: Montserrat-Medium;
+    position: relative;
+    left: 430px;
+    top: -45px;
+    font-size: 24px;
+    height: 1px;
+    text-decoration:none;
+    color: black;
+}
+
+
+.main-1 h1{
+    width: 190px;
+    color: black;
+    position: relative;
+    font-size: 19px; 
+    top: -60px;
+    left: 90px;
+    font-family: Montserrat-Regular; 
+}
+
+.main-1 h2{
+    width: 550px;
+    color: rgba(255, 255, 255);
+    position: relative;
+    font-size: 13px; 
+    top: -70px;
+    left: 90px;
+    font-family: Montserrat-Bold;
+}
+
+.main-1 img{
+position: relative;
+left: 15px;
+ top: 20px;
+ height: 70px;
+ width: 68px;
+}
+
+.line{
+    position: relative;
+    top: -40px;
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+    width: auto;
+}
+/*Main Bitmiştir*/
+
+
+/* Scoll Başladı  */
+
+.main-1   .scroller {
+    z-index: auto;
+    position: relative;
+    left: -320px;
+    top: -430px;
+    margin-left: 330px;
+    width: 440px;
+    height: 280px;
+    padding: 30px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: auto;
+    background-color: rgb(0, 0, 0);
+  }
+
+/* Scoll Rengi  */
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #fafafa;
+    border-left: 1px solid rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-color:rgb(146, 33, 180);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color:rgb(146, 33, 180);
+}
+/* Scoll Bitti  */
+
+
+.main-1   .scroller h1{
+    position: relative;
+    left: -20px;
+    margin-top: 30px;
+    font-family: Montserrat-Regular;
+    position: relative ;
+    border-bottom:solid 2px rgb(146, 33, 180);
+    width: 75px;
+    color: rgb(90, 90, 90);
+}
+
+.main-1 .scroller h1:hover{
+    color:rgb(187, 25, 25);  border-bottom:solid 1px  rgb(255, 255, 255);
+}
+
+.line2{
+    left: -30px;
+    width: 490px;
+    position: relative;
+    top: -70px;
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+}
+/** Mavi Ürün Down Bitti **/
+.main-1 .scroller h2{
+    position: relative;
+    left: -20px;
+    top: -36px;
+    font-size: 15px;
+    width: 40px;
+}
+
+.main-1 .scroller h3{
+    color: rgb(136, 136, 136);
+    width: 40px;
+    font-family: Montserrat-Regular; 
+
+    position: relative;
+    left: 390px;
+    top: -65px;
+    font-size: 15px;
+}
+
+
+.line3{
+    position: relative;
+    left: -20px;
+    top: -70px;
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+    width: 450px;
+}
+
+.vr {
+    border-left: 5px solid  rgb(146, 33, 180);
+    height: 410px;
+    position: relative;
+    top: -30px;
+  }
+  
